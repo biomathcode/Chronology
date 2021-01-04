@@ -1,0 +1,27 @@
+.containerDiv {
+    padding: 3%;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagePart {
+    height: 80vh;
+    width: 60vh;
+    border-radius: 5%;
+}
+.textPart {
+    width: 500px;
+    font-size: 1.6rem;
+    text-decoration: none ;
+    border-radius: 5%;
+    transition-timing-function: ease-in-out;
+    text-decoration: solid underline white;
+}
+.textPart:hover {
+    transition-duration: 350ms;
+    text-decoration: solid underline greenyellow;
+
+}
