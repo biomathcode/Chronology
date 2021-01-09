@@ -1,29 +1,22 @@
-import React,{ Component} from 'react';
-import {useEffect, useState} from 'react';
-import Papa from 'papaparse';
-import './App.css'
-import {useTransition, animated} from 'react-spring';
-import {SimpleAnimation} from './animations/simple'
+import React,{ useState} from 'react';
 
+import './App.css'
+import Form from './Components/Form';
+import Fetchingdata from './api/Fetchingwithhooks';
 function App() {
-  const [data, setData] = useState(false)
-  const [toggle, setToggle] = useState(false);
-  const transitions = useTransition(toggle, null, {
-    enter: {opacity: 1},
-    leave: {opacity: 0},
-  })
+  const [url, setUrl] = useState("")
+  const [lock, setLock ] = useState(false);
+
+  const SubmitHandler = (event) => {
+    event.preventDefault();
+    setLock(true);
+  }
   return (
-    <div>
-      {/* <button onClick={() => setData(!data)}></button>
-      {!data && 
-      <animated.div className="rectangle">
-      </animated.div>}  
-      {transitions.map(({ item, props, key}) => 
-      item
-        ?<animated.div style={props}>😄</animated.div>
-        :<animated.div style={props}>🤪</animated.div>
-      )} */}
-      <SimpleAnimation/>
+    <div >
+      <Form url={url} setUrl={setUrl} SubmitHandler={SubmitHandler} lock={lock}/>
+      {lock && <Fetchingdata 
+      url={url} 
+      /> } 
     </div> 
   )
 }
