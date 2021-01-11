@@ -2,11 +2,9 @@ import React,{useState} from 'react';
 import './Form.css';
 const Form = ({url, setUrl, SubmitHandler, lock}) =>{
 
-  const handlechange = (e) => {
-
-  }
     return (
-        <div className="container">
+      <div className="container">
+          <h1 className="title">Chronology</h1>
         {!lock && 
       <form className="form" >
 
@@ -19,6 +17,7 @@ const Form = ({url, setUrl, SubmitHandler, lock}) =>{
 
         />
         <button type="submit" onClick={SubmitHandler}>submit</button>
+        
       </form>
       }
         </div>

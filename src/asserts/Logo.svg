@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 536.28 536.28">
+    <title>Logo</title>
+    <g class="Layer_2" data-name="Layer 2">
+        <g class="myIcon">
+            <circle class="background" cx="268.14" cy="268.14" r="268.14" style="fill:#6fff78" />
+            <g class="innerTriangle">
+                <circle cx="143.14" cy="194.87" r="41" style="fill:#6fff78" />
+                <circle cx="393.14" cy="194.87" r="41" style="fill:#6fff78" />
+                <circle cx="270.14" cy="399.87" r="41" style="fill:#6fff78" />
+                <rect x="156.51" y="184.87" wclassth="236.91" height="29" style="fill:#6fff78" />
+                <polygon points="257.17 408.26 128.14 200.27 151.37 184.48 280.4 392.47 257.17 408.26"
+                    style="fill:#6fff78" />
+                <polygon points="276.24 414.26 402.51 206.27 379.77 190.48 253.51 398.47 276.24 414.26"
+                    style="fill:#6fff78" />
+            </g>
+            <circle class="background-2" data-name="background" cx="268.14" cy="268.14" r="268.14" style="fill:#6fff78" />
+            <g class="innerTriangle-2" data-name="innerTriangle">
+                <circle cx="143.14" cy="194.87" r="41" style="fill:#fff" />
+                <circle cx="393.14" cy="194.87" r="41" style="fill:#fff" />
+                <circle cx="270.14" cy="399.87" r="41" style="fill:#fff" />
+                <rect x="156.51" y="184.87" wclassth="236.91" height="29" style="fill:#fff" />
+                <polygon points="257.17 408.26 128.14 200.27 151.37 184.48 280.4 392.47 257.17 408.26"
+                    style="fill:#fff" />
+                <polygon points="276.24 414.26 402.51 206.27 379.77 190.48 253.51 398.47 276.24 414.26"
+                    style="fill:#fff" />
+            </g>
+        </g>
+    </g>
+</svg>

@@ -22,7 +22,6 @@ const Fetchingdata = ({url}) => {
     return (
         <div>
             {status}
-            {console.log(data)}
             {data.map(obj => {
                 return (
             <FadeExample
