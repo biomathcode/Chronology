@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Chronology/static/css/main.3cc311df.chunk.css",
+    "main.js": "/Chronology/static/js/main.5bfc5744.chunk.js",
+    "main.js.map": "/Chronology/static/js/main.5bfc5744.chunk.js.map",
+    "runtime-main.js": "/Chronology/static/js/runtime-main.63fe14bd.js",
+    "runtime-main.js.map": "/Chronology/static/js/runtime-main.63fe14bd.js.map",
+    "static/js/2.15776ae0.chunk.js": "/Chronology/static/js/2.15776ae0.chunk.js",
+    "static/js/2.15776ae0.chunk.js.map": "/Chronology/static/js/2.15776ae0.chunk.js.map",
+    "static/js/3.29b6ec97.chunk.js": "/Chronology/static/js/3.29b6ec97.chunk.js",
+    "static/js/3.29b6ec97.chunk.js.map": "/Chronology/static/js/3.29b6ec97.chunk.js.map",
+    "index.html": "/Chronology/index.html",
+    "static/css/main.3cc311df.chunk.css.map": "/Chronology/static/css/main.3cc311df.chunk.css.map",
+    "static/js/2.15776ae0.chunk.js.LICENSE.txt": "/Chronology/static/js/2.15776ae0.chunk.js.LICENSE.txt",
+    "static/media/Logo.a64f9412.svg": "/Chronology/static/media/Logo.a64f9412.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63fe14bd.js",
+    "static/js/2.15776ae0.chunk.js",
+    "static/css/main.3cc311df.chunk.css",
+    "static/js/main.5bfc5744.chunk.js"
+  ]
+}
